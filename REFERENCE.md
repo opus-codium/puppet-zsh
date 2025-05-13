@@ -7,7 +7,7 @@
 ### Classes
 
 * [`zsh`](#zsh): Install zsh packages
-* [`zsh::params`](#zshparams): Default parameter values
+* [`zsh::params`](#zsh--params): Default parameter values
 
 ## Classes
 
@@ -27,11 +27,11 @@ include zsh
 
 The following parameters are available in the `zsh` class:
 
-* [`zshpackage`](#zshpackage)
-* [`zshpath`](#zshpath)
-* [`ensure`](#ensure)
+* [`zshpackage`](#-zsh--zshpackage)
+* [`zshpath`](#-zsh--zshpath)
+* [`ensure`](#-zsh--ensure)
 
-##### <a name="zshpackage"></a>`zshpackage`
+##### <a name="-zsh--zshpackage"></a>`zshpackage`
 
 Data type: `String[1]`
 
@@ -39,7 +39,7 @@ The name of the package to be installed
 
 Default value: `$zsh::params::zshpackage`
 
-##### <a name="zshpath"></a>`zshpath`
+##### <a name="-zsh--zshpath"></a>`zshpath`
 
 Data type: `Stdlib::Absolutepath`
 
@@ -47,7 +47,7 @@ The path to the zsh binary once installed
 
 Default value: `$zsh::params::zshpath`
 
-##### <a name="ensure"></a>`ensure`
+##### <a name="-zsh--ensure"></a>`ensure`
 
 Data type: `Any`
 
@@ -57,7 +57,7 @@ https://puppet.com/docs/puppet/latest/types/package.html#package-attribute-ensur
 
 Default value: `installed`
 
-### <a name="zshparams"></a>`zsh::params`
+### <a name="zsh--params"></a>`zsh::params`
 
 Default parameter values
 

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 
 describe 'zsh' do
@@ -9,7 +11,9 @@ describe 'zsh' do
 
       it { is_expected.to compile.with_all_deps }
     end
+
     next unless facts[:os]['family'].eql? 'Solaris'
+
     context "on sun4v Solaris #{facts[:os]['release']['major']}" do
       let(:facts) do
         facts.merge(os: {
