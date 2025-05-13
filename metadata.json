@@ -17,21 +17,29 @@
     {
       "operatingsystem": "CentOS",
       "operatingsystemrelease": [
+        "8",
+        "9"
       ]
     },
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
+        "8",
+        "9"
       ]
     },
     {
       "operatingsystem": "Debian",
       "operatingsystemrelease": [
+        "11",
+        "12"
       ]
     },
     {
       "operatingsystem": "Ubuntu",
       "operatingsystemrelease": [
+        "22.04",
+        "24.04"
       ]
     },
     {
@@ -44,6 +52,8 @@
     {
       "operatingsystem": "FreeBSD",
       "operatingsystemrelease": [
+        "13",
+        "14"
       ]
     }
   ],
