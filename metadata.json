@@ -1,6 +1,6 @@
 {
   "name": "opuscodium-zsh",
-  "version": "3.0.0",
+  "version": "3.0.1-rc0",
   "author": "Opus Codium",
   "summary": "A module to manage zsh stolen from the Puppet Labs Operations team",
   "license": "Apache-2.0",
