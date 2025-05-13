@@ -1,9 +1,22 @@
-# zsh
+# puppet-zsh
 
-![](https://img.shields.io/puppetforge/pdk-version/ploperations/zsh.svg?style=popout)
-![](https://img.shields.io/puppetforge/v/ploperations/zsh.svg?style=popout)
-![](https://img.shields.io/puppetforge/dt/ploperations/zsh.svg?style=popout)
-[![Build Status](https://travis-ci.org/ploperations/ploperations-zsh.svg?branch=master)](https://travis-ci.org/ploperations/ploperations-zsh)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/opus-codium/puppet-zsh/release.yml)](https://github.com/opus-codium/puppet-zsh/releases)
+[![Puppet Forge](https://img.shields.io/puppetforge/v/opuscodium/zsh.svg)](https://forge.puppetlabs.com/opuscodium/zsh)
+[![Puppet Forge - downloads](https://img.shields.io/puppetforge/dt/opuscodium/zsh.svg)](https://forge.puppetlabs.com/opuscodium/zsh)
+[![Puppet Forge - endorsement](https://img.shields.io/puppetforge/e/opuscodium/zsh.svg)](https://forge.puppetlabs.com/opuscodium/zsh)
+[![Puppet Forge - scores](https://img.shields.io/puppetforge/f/opuscodium/zsh.svg)](https://forge.puppetlabs.com/opuscodium/zsh)
+[![License](https://img.shields.io/github/license/opus-codium/puppet-zsh.svg)](https://github.com/voxpupuli/opuscodium-zsh/blob/master/LICENSE.md)
+
+#### Table of Contents
+
+<!-- vim-markdown-toc GFM -->
+
+* [Module description](#module-description)
+* [Usage](#usage)
+
+<!-- vim-markdown-toc -->
+
+## Module description
 
 The zsh module takes care of installing zsh on various platforms.
 
@@ -15,19 +28,3 @@ the host on which you want to use zsh:
 ```puppet
 include zsh
 ```
-
-## Reference
-
-This module is documented via
-`pdk bundle exec puppet strings generate --format markdown`.
-Please see [REFERENCE.md](REFERENCE.md) for more info.
-
-## Changelog
-
-[CHANGELOG.md](CHANGELOG.md) is generated prior to each release via
-`pdk bundle exec rake changelog`. This proecss relies on labels that are applied
-to each pull request.
-
-## Contributing
-
-Pull requests are welcome!
